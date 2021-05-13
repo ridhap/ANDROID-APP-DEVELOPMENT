@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#D6F3F7"
+    tools:context=".MainActivity"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/txtResult3"
+        android:layout_width="315dp"
+        android:layout_height="43dp"
+        android:background="#F77AA5"
+        android:text="CALCULATOR"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="20dp"
+        android:layout_marginBottom="100dp"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        >
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="100dp"
+            android:layout_height="29dp"
+            android:background="#DEAAF5"
+            android:text="NUMBER 1"
+            android:textAlignment="center"
+            android:textColor="#070707" />
+
+        <EditText
+            android:id="@+id/edit_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ECE7BB"
+            android:layout_marginStart="20dp"
+            android:hint="Enter Your first number"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:id="@+id/txtResult2"
+            android:layout_width="100dp"
+            android:layout_height="29dp"
+            android:background="#DEAAF5"
+            android:text="NUMBER 2"
+            android:textAlignment="center"
+            android:textColor="#070707" />
+
+        <EditText
+            android:id="@+id/edit_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ECE7BB"
+            android:hint="Enter Your second number"
+            android:layout_marginStart="20dp"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="20dp">
+    <Button
+        android:id="@+id/button_Add"
+        android:layout_width="44dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="50dp"
+        android:background="#B6D197"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/button_Sub"
+        android:layout_width="46dp"
+        android:layout_height="36dp"
+        android:background="#B6D197"
+        android:layout_marginStart="30dp"
+        android:padding="10dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/button_Mul"
+        android:layout_width="44dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="30dp"
+        android:background="#B6D197"
+        android:text="*"
+       />
+
+    <Button
+        android:id="@+id/button_Div"
+        android:layout_width="44dp"
+        android:layout_height="36dp"
+        android:background="#B6D197"
+        android:text="/"
+        android:layout_marginStart="30dp"
+        />
+</LinearLayout>
+</LinearLayout>

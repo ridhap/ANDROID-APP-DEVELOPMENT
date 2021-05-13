@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=solver
+comment1.params=bo
+comment1.target=int[]\ find_empty(int[][])
+comment2.params=bo\ num\ pos
+comment2.target=boolean\ valid(int[][],\ int,\ int[])
+comment3.params=board
+comment3.target=boolean\ solve(int[][])
+comment4.params=bo
+comment4.target=void\ print_board(int[][])
+comment5.params=
+comment5.target=void\ main()
+numComments=6
